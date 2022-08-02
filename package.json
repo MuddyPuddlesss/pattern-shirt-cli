@@ -1,0 +1,23 @@
+{
+  "name": "pattern-shirt-cli",
+  "version": "1.0.0",
+  "description": "simple cli",
+  "main": "index.js",
+  "bin": {
+    "psc": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.2"
+  }
+}
